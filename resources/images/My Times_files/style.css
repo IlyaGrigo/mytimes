@@ -1,0 +1,46 @@
+div {
+  border: 1px dotted green;
+}
+
+div.header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+}
+
+span.logo {
+  color: MediumAquamarine;
+}
+
+div.header {
+  display: flex;
+}
+
+.boxlogo, .boxnavigation {
+  display: inline-flex;
+  height: 80px;
+  max-height: 80px;
+}
+
+.boxlogo {
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-width: 170px;
+  align-content: space-around;
+}
+
+.boxnavigation {
+  justify-content: flex-end;
+  width: 100%;
+}
+
+nav li {
+  display: inline-block;
+  width: 75px;
+  height: 30px;
+  text-align: center;
+  border: 1px solid blue;
+  color: red;
+
+}
